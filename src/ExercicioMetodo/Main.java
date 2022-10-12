@@ -42,15 +42,16 @@ public class Main {
         double areaTrapezio = QuadrilateroReturn.area(6,5,2);
         System.out.println("Área do Trapézio: " + areaTrapezio);
 
-        public static void xpto() {//da pra retornar mesmo quando é void só que serve para finalizar
 
-            System.out.println("Antes");
-            return;
-        }
-
-        /public static double abc() {
-            return 1.6; // tem que ser compativel com o tipo, nesse caso nao pode ser float por exemplo
-        }
 
     }
+
+    public static void outro() { //da pra retornar mesmo quando é void só que serve para finalizar
+
+        System.out.println("Antes");
+    }
+
+    //public static double abc() {
+    // return 1.6; // tem que ser compativel com o tipo, nesse caso nao pode ser float por exemplo
 }
+
